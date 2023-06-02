@@ -12,14 +12,11 @@ function urnaEletronica (){
 
     const confirmaEncerramento = 'N', confirmaVoto = 'N';
 
-    console.log("Coloque o nome do Candidato 1: ");
-    prompt(nomeCandidato1);
+    nomeCandidato1 = prompt("Coloque o nome do Candidato 1: ");
 
-    console.log("Coloque o nome do Candidato 2: ");
-    prompt(nomeCandidato2);
+    nomeCandidato2 = prompt("Coloque o nome do Candidato 2: ");
 
-    console.log("Coloque o nome do Candidato 3: ");
-    prompt(nomeCandidato3);
+    nomeCandidato3 = prompt("Coloque o nome do Candidato 3: ");
     console.clear();
 
     do{
